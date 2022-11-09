@@ -1,0 +1,1 @@
+En esta branch llamada Developing estaremos mandando las actualizaciones del proyecto, arreglos y modificaciones en general que tengamos para posteriormente unirlas con el brach principal. Se usará de manera temporal por consiguiente podremos hacer las modificaciones que desemos. 
