@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!---Main layout-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00794c"
+            android:minHeight="@dimen/_600sdp"
+            android:orientation="vertical">
+            <!--Others elements-->
+            <!--constraintlayout-->
+            <!--Button of menu-->
+            <Button
+                android:id="@+id/buttonmenu"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:drawableStart="@mipmap/iconmenu"
+                android:foregroundGravity="center|center_horizontal"
+                android:padding="@dimen/_15sdp"
+                android:paddingTop="@dimen/_25sdp"
+                android:text="hola"
+                android:textColor="#00FFFFFF"
+                tools:ignore="TouchTargetSizeCheck" />
+            <!--Button rate app-->
+            <Button
+                android:id="@+id/buttonrateapp"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:drawableStart="@mipmap/iconr"
+                android:foregroundGravity="center|center_horizontal"
+                android:padding="@dimen/_8sdp"
+                android:paddingTop="@dimen/_25sdp"
+                android:text="hola"
+                android:textColor="#00FFFFFF"
+                android:translationX="@dimen/_250sdp"
+                android:translationY="-43dp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:fontFamily="@font/bold"
+                android:text="FormsMath"
+                android:textColor="#FFFFFF"
+                android:textSize="34sp"
+                android:translationY="@dimen/_45sdp"
+                android:typeface="normal" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_50sdp"
+                    android:background="@drawable/layout_radius"
+                    android:backgroundTint="#FFFFFF"
+                    android:clipChildren="true"
+                    android:measureWithLargestChild="true"
+                    android:minHeight="@dimen/_580sdp"
+                    android:orientation="vertical">
+                    <!--BUTTON 1-->
+                    <Button
+                        android:id="@+id/boton1"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_marginLeft="@dimen/_25sdp"
+                        android:background="@drawable/button_radius_menu"
+                        android:drawableLeft="@mipmap/icon1"
+                        android:foreground="@mipmap/text1"
+                        android:foregroundGravity="bottom|center_horizontal"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Matemática básica"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:translationY="@dimen/_50sdp" />
+                    <!--BUTTON 2-->
+                    <!--BUTTON 3-->
+                    <Button
+                        android:id="@+id/boton2"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_marginLeft="@dimen/_25sdp"
+                        android:background="@drawable/button_radius_menu"
+                        android:drawableLeft="@mipmap/icon2"
+                        android:foreground="@mipmap/text2"
+                        android:foregroundGravity="bottom|center_horizontal"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Introducción al cálculo"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:translationY="@dimen/_60sdp" />
+
+                    <Button
+                        android:id="@+id/boton3"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_marginLeft="@dimen/_25sdp"
+                        android:background="@drawable/button_radius_menu"
+                        android:drawableLeft="@mipmap/icon3"
+                        android:foreground="@mipmap/text3"
+                        android:foregroundGravity="bottom|center_horizontal"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Cálculo 1"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:translationY="@dimen/_70sdp" />
+                    <!--BUTTON 4-->
+                    <Button
+                        android:id="@+id/boton4"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_marginLeft="@dimen/_25sdp"
+                        android:background="@drawable/button_radius_menu"
+                        android:drawableLeft="@mipmap/icon4"
+                        android:foreground="@mipmap/text4"
+                        android:foregroundGravity="bottom|center_horizontal"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Cálculo 2"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:translationY="@dimen/_80sdp" />
+
+
+                </LinearLayout>
+            </ScrollView>
+
+            <!--End constraintlayout-->
+
+            <!--Finish others elements-->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
